@@ -1531,7 +1531,7 @@
 												{
 														"file": "presentations/m5_p1/Slide1.jpeg",
 														"order": 0,
-														"time": "00:00:00"
+														"time": "00:00:15"
 												},
 												{
 														"file": "presentations/m5_p1/Slide2.jpeg",
@@ -1541,27 +1541,32 @@
 												{
 														"file": "presentations/m5_p1/Slide3.jpeg",
 														"order": 2,
-														"time": "00:02:50"
-												},
-												{
-														"file": "presentations/m5_p1/Slide4.jpeg",
-														"order": 3,
-														"time": "00:05:08"
+														"time": "00:01:33"
 												},
 												{
 														"file": "presentations/m5_p1/Slide5.jpeg",
-														"order": 4,
-														"time": "00:06:20"
+														"order": 3,
+														"time": "00:01:54"
 												},
 												{
 														"file": "presentations/m5_p1/Slide6.jpeg",
+														"order": 4,
+														"time": "00:02:20"
+												},
+												{
+														"file": "presentations/m5_p1/Slide4.jpeg",
 														"order": 5,
-														"time": "00:07:11"
+														"time": "00:03:15"
+												},
+												{
+														"file": "presentations/m5_p1/Slide7.jpeg",
+														"order": 6,
+														"time": "00:03:41"
 												}
 										],
 										"theme": "yellow",
 										"video_provider": "youtube",
-										"video_url": "wzGO9lmmPVU",
+										"video_url": "zVFps5iPPKY",
 										"backColor": "#3f3f3f"
 								}
 						},
@@ -1638,19 +1643,16 @@
 								"theme": "yellow",
 								"images": [
 									{
-										"url": "illustrations/marina1.jpg"
+										"url": "illustrations/felix1.jpg"
 									},
 									{
-										"url": "illustrations/marina2.jpg"
+										"url": "illustrations/felix2.jpg"
 									},
 									{
-										"url": "illustrations/marina3.jpg"
+										"url": "illustrations/felix3.jpg"
 									},
 									{
-										"url": "illustrations/marina4.jpg"
-									},
-									{
-										"url": "illustrations/marina5.jpg"
+										"url": "illustrations/felix4.jpg"
 									}
 								]
 							}
@@ -1663,7 +1665,7 @@
 							"tmplParams": {
 								"backColor": "#626262",
 								"theme": "yellow",
-								"answers": [true, false, true, false]
+								"answers": [false, false, false, true]
 							}
 						},
 						{
@@ -1674,7 +1676,7 @@
 							"tmplParams": {
 								"backColor": "#626262",
 								"theme": "yellow",
-								"answers": [true, true, false, true]
+								"answers": [false, true, false, false]
 							}
 						},
 						{
@@ -1685,7 +1687,7 @@
 							"tmplParams": {
 								"backColor": "#626262",
 								"theme": "yellow",
-								"answers": [true, true, false, false]
+								"answers": [false, false, true, false]
 							}
 						},
 						{
@@ -1695,37 +1697,25 @@
 							"order": 12,
 							"tmplParams": {
 								"backColor": "#626262",
-								"theme": "brown",
+								"theme": "yellow",
 								"leftItems": 4,
 								"rightItems": 4,
-								"correctItems": "0:3,1:1,2:0,3:2",
+								"correctItems": "0:1,1:3,2:0,3:2",
 								"colLeftWidth": "45%",
 								"colCenterWidth": "10%",
 								"colRightWidth": "45%"
 							}
 						},
-						{
-							"id": 204,
-							"tmpl": "tmpl-rp-onechoice",
-							"visible": true,
-							"order": 13,
-							"tmplParams": {
-								"backColor": "#626262",
-								"theme": "brown",
-								"extraNote": true,
-								"answers": [
-									{
-										"order": 0,
-										"ico":"icons/3dico-megaphone.png"
-									},
-									{
-										"order": 1,
-										"ico":"icons/3dico-shield.png",
-										"correct": true
-									}
-								]
-							}
-					 }
+					 {
+						"id": 104,
+						"tmpl": "tmpl-examinfo",
+						"visible": true,
+						"order": 11,
+						"tmplParams": {
+							"backColor": "linear-gradient(30deg, rgba(64,67,56,1) 0%, rgba(54,46,52,1) 100%)",
+							"theme": "yellow"
+						}
+					}
 			  ]
 		 }
 	]
