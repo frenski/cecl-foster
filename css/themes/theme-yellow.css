@@ -33,7 +33,9 @@
 }
 
 .sliding-menu-wrapper {
-	background: #FFB229;
+	background: #FE6404;
+	background: linear-gradient(180deg, rgb(254, 100, 4) 0%, rgb(254, 146, 5) 100%);
+	border-right: 10px solid #ffb505;
 }
 
 #sliding-menu-button {
