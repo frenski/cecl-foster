@@ -11,30 +11,9 @@
 							"backColor":"#404338",
 							"theme":"yellow",
 							"video_provider":"youtube",
-							"video_url":"ecsR4UbEfqQ",
-							"author_pic":"profile-pics/pp-costa.png"
+							"video_url":"XXX",
+							"author_pic":"profile-pics/pp-author.png"
 						}
-				},
-				{
-					"id": 1,
-					"tmpl": "tmpl-oneimage-textblocks",
-					"visible": true,
-					"order": 1,
-					"tmplParams": {
-						"backColor": "linear-gradient(30deg, rgba(64,67,56,1) 0%, rgba(54,46,52,1) 100%)",
-						"theme": "yellow",
-						"image": "graphics/illu-ethics.jpg",
-						"textBlocks": [
-							{
-								"backColor": "rgba(255,200,44,0.9)",
-								"appearDelay": 1
-							},
-							{
-								"backColor": "rgba(255,200,44,0.9)",
-								"appearDelay": 4
-							}
-						]
-					}
 				},
 				{
 					"id": 2,

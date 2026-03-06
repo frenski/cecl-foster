@@ -28,6 +28,15 @@ $(document).ready( function(){
 		autoplay: false,
 		path: 'img/lottie/response1-wrong.json'
 	});
+	let resNullJQ = $('#lt-player-attention');
+	const resNullEl = document.getElementById("lt-player-attention");
+	const resNull = lottie.loadAnimation({
+		container: resNullEl,
+		renderer: 'svg',
+		loop: false,
+		autoplay: false,
+		path: 'img/lottie/response1-attention.json'
+	});
 	let answerIconResponses = [];
 
 	// yLearnTmpl.playInstructionVoice(2);
@@ -49,9 +58,10 @@ $(document).ready( function(){
 	// Setting dynamic elements from templates
 	for (var i=0; i<tParams.answers.length; i++) {
 		answerItems.answers[i] = {'id':i,
-								  'correct':
-										(typeof(tParams.answers[i].correct !=='undefined')
-										&& tParams.answers[i].correct) ? true:false,
+								  // 'correct':
+									// 	(typeof(tParams.answers[i].correct !=='undefined')
+									// 	&& tParams.answers[i].correct) ? true:false,
+									'correct':tParams.answers[i].correct,
 									'ico':tParams.answers[i].ico,
 								  'textId':100+i,
 								  'responseTextContenId':200+i,
@@ -72,12 +82,12 @@ $(document).ready( function(){
 		$(this).addClass('anim-pulsate');
 		setTimeout(function(){
 			self.removeClass('anim-pulsate');
-			if (answerItems.answers[id].correct) {
-				resCorrectJQ.show();
-				resCorrect.play();
+			if (typeof(answerItems.answers[id].correct) === 'undefined'){
+				resNullJQ.show();
+				resNull.play();
 				setTimeout(function(){
-					resCorrectJQ.fadeOut('slow');
-					resCorrect.stop();
+					resNullJQ.fadeOut('slow');
+					resNull.stop();
 					if (tParams.extraNote) {
 						setTimeout(function(){
 							$('#extranote').addClass('note-display');
@@ -85,17 +95,31 @@ $(document).ready( function(){
 					}
 				}, 3000);
 			} else {
-				resWrongJQ.show();
-				resWrong.play();
-				setTimeout(function(){
-					resWrongJQ.fadeOut('slow');
-					resWrong.stop();
-					if (tParams.extraNote) {
-						setTimeout(function(){
-							$('#extranote').addClass('note-display');
-						}, 200);
-					}
-				}, 3000);
+				if (answerItems.answers[id].correct) {
+					resCorrectJQ.show();
+					resCorrect.play();
+					setTimeout(function(){
+						resCorrectJQ.fadeOut('slow');
+						resCorrect.stop();
+						if (tParams.extraNote) {
+							setTimeout(function(){
+								$('#extranote').addClass('note-display');
+							}, 200);
+						}
+					}, 3000);
+				} else {
+					resWrongJQ.show();
+					resWrong.play();
+					setTimeout(function(){
+						resWrongJQ.fadeOut('slow');
+						resWrong.stop();
+						if (tParams.extraNote) {
+							setTimeout(function(){
+								$('#extranote').addClass('note-display');
+							}, 200);
+						}
+					}, 3000);
+				}
 			}
 		}, 2000);
 	});
