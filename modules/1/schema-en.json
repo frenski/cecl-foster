@@ -893,9 +893,6 @@
 									},
 									{
 										"order": 6
-									},
-									{
-										"order": 7
 									}
 	 							]
 	 						}
@@ -965,37 +962,37 @@
 	 											{
 	 													"file": "presentations/m4_p1/Slide1.jpeg",
 	 													"order": 0,
-	 													"time": "00:00:10"
+	 													"time": "00:00:00"
 	 											},
 	 											{
 	 													"file": "presentations/m4_p1/Slide2.jpeg",
 	 													"order": 1,
-	 													"time": "00:00:40"
+	 													"time": "00:00:06"
 	 											},
 	 											{
 	 													"file": "presentations/m4_p1/Slide3.jpeg",
 	 													"order": 2,
-	 													"time": "00:01:10"
+	 													"time": "00:00:32"
 	 											},
 	 											{
 	 													"file": "presentations/m4_p1/Slide4.jpeg",
 	 													"order": 3,
-	 													"time": "00:01:40"
+	 													"time": "00:00:51"
 	 											},
 	 											{
 	 													"file": "presentations/m4_p1/Slide5.jpeg",
 	 													"order": 4,
-	 													"time": "00:02:10"
+	 													"time": "00:01:12"
 	 											},
 	 											{
 	 													"file": "presentations/m4_p1/Slide6.jpeg",
 	 													"order": 5,
-	 													"time": "00:02:35"
+	 													"time": "00:01:57"
 	 											},
 												{
 														"file": "presentations/m4_p1/Slide7.jpeg",
 														"order": 6,
-														"time": "00:02:50"
+														"time": "00:02:42"
 												}
 	 									],
 	 									"theme": "yellow",
@@ -1216,7 +1213,7 @@
 	 							"theme": "brown",
 	 							"leftItems": 6,
 	 							"rightItems": 3,
-	 							"correctItems": "0:2,1:0,2:2,3:0,4:1,5:1",
+	 							"correctItems": "0:2,1:0,1:1,2:2,3:0,4:1,5:1",
 	 							"colLeftWidth": "55%",
 	 							"colCenterWidth": "10%",
 	 							"colRightWidth": "35%"
