@@ -1,0 +1,30 @@
+{
+  "texts": {
+    "content_text0": "Próbálja meg!",
+    "content_text1": "Mielőtt elkezdené az előadást, melegedjünk be és próbálja meg:",
+    "content_text100": "A gyermekek személyes adatai különleges védelmet igényelnek, mivel a gyermekeket jogilag és társadalmilag sérülékenynek tekintik.",
+    "content_text200_0": "IGEN",
+    "content_text200_1": "NEM",
+    "content_text300": "A gyermekeket sérülékeny személyeknek ismerik el, akiknek adatai fokozott garanciákat igényelnek a nemzetközi és uniós jog szerint.",
+    "content_text101": "Az adatvédelem elsősorban adminisztratív kérdés, nem az alapjogok kérdése.",
+    "content_text201_0": "IGEN",
+    "content_text201_1": "NEM",
+    "content_text301": "A magánélet és az adatvédelem alapjogként elismertek, nem csupán adminisztratív vagy technikai kérdések.",
+    "content_text102": "A GDPR tartalmaz konkrét rendelkezéseket a gyermekek személyes adatainak kezeléséről.",
+    "content_text202_0": "IGEN",
+    "content_text202_1": "NEM",
+    "content_text302": "A GDPR kifejezetten tartalmaz szabályokat és garanciákat a gyermekek adatainak törvényes kezeléséről.",
+    "content_text103": "Az ügyvédeknek csak a jogi szabályokat kell betartaniuk a gyermekek képviselete során, nem az etikai normákat.",
+    "content_text203_0": "IGEN",
+    "content_text203_1": "NEM",
+    "content_text303": "Az ügyvédeket a gyermekek képviselete során jogi kötelezettségek és szakmai etikai normák egyaránt kötik.",
+    "content_text104": "A gyermekek személyes adatainak védelme kizárólag a bíróságok felelőssége.",
+    "content_text204_0": "IGEN",
+    "content_text204_1": "NEM",
+    "content_text304": "A felelősség kiterjed az államokra, jogi szakemberekre, intézményekre és mindenkire, aki gyermekek adatait kezeli.",
+    "content_text105": "A nemzetközi jog elismeri a gyermek magánélethez való jogát.",
+    "content_text205_0": "IGEN",
+    "content_text205_1": "NEM",
+    "content_text305": "Az ENSZ Gyermekjogi Egyezménye kifejezetten elismeri a gyermekek magánélethez való jogát."
+  }
+}

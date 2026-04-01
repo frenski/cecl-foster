@@ -1,0 +1,32 @@
+{
+  "mainTitle": "CECL eLearning",
+  "subTitle": "FOSTER",
+  "module": {
+    "title": "1. egység",
+    "sections": [
+      {
+        "title": "1. modul: Gyermekbarát igazságszolgáltatás",
+        "subsections": []
+      },
+      {
+        "title": "2. modul: A bűncselekmények gyermek áldozatainak jogai a nemzetközi és uniós jogban",
+        "subsections": []
+      },
+      {
+        "title": "3. modul: A gyermekek személyes adatainak védelme",
+        "subsections": []
+      },
+      {
+        "title": "4. modul: Az etika kihívásai: gyermek- és serdülőpszichológia",
+        "subsections": []
+      },
+      {
+        "title": "5. modul: Integrált megközelítés",
+        "subsections": []
+      }
+    ]
+  },
+  "sysMessages": {
+    "wrongPage": "Rossz oldal, kattintson a kezdőlapra való visszatéréshez!"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "texts": {
+    "content_text0": "Próbálja meg!",
+    "content_text1": "Mielőtt elkezdené az előadást, melegedjünk be és próbálja meg:",
+    "content_text100": "Igazságügyi interjúk lefolytatásakor az ülőhely elrendezésének tartalmaznia kell egy íróasztalt a szakember és a gyermek között a tekintély fenntartása érdekében.",
+    "content_text200_0": "IGEN",
+    "content_text200_1": "NEM",
+    "content_text300": "A korlátokat, például az íróasztalokat el kell távolítani, hogy biztonságos, nem megfélemlítő környezetet teremtsenek.",
+    "content_text101": "Elfogadható, ha szükség esetén egy családtagot tolmácsként alkalmaznak.",
+    "content_text201_0": "IGAZ",
+    "content_text201_1": "HAMIS",
+    "content_text301": "Szakmai tolmácsot kell alkalmazni a befolyásolás vagy félreértés elkerülése érdekében.",
+    "content_text102": "A nyitott kérdések előnyben részesítendők, mert ösztönzik a gyermeket a szabad elbeszélésre.",
+    "content_text202_0": "IGAZ",
+    "content_text202_1": "HAMIS",
+    "content_text103": "A szakembereknek pozitív kimeneteleket kell ígérniük, hogy a gyermek megnyugodjon.",
+    "content_text203_0": "IGEN",
+    "content_text203_1": "NEM",
+    "content_text303": "Csak reális elvárásokat szabad megfogalmazni – ígéreteket nem.",
+    "content_text104": "A gyermek csendes szüneteit tiszteletben kell tartani a beszélgetés során.",
+    "content_text204_0": "IGAZ",
+    "content_text204_1": "HAMIS",
+    "content_text105": "Az interjúk számának korlátozása segít csökkenteni a gyermek szükségtelen stresszét.",
+    "content_text302": "Ösztönzik a gyermeket arra, hogy saját szavaival írja le az eseményeket.",
+    "content_text304": "A szünetek időt adnak a gondolkodásra és az érzelmek feldolgozására.",
+    "content_text205_0": "IGEN",
+    "content_text205_1": "NEM",
+    "content_text305": "Az interjúk korlátozása csökkenti a stresszt és a lehetséges újratraumatizációt."
+  }
+}

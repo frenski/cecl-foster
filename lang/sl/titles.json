@@ -1,0 +1,32 @@
+{
+  "mainTitle": "CECL eLearning",
+  "subTitle": "FOSTER",
+  "module": {
+    "title": "Enota 1",
+    "sections": [
+      {
+        "title": "Modul 1: Pravosodje, prijazno do otrok",
+        "subsections": []
+      },
+      {
+        "title": "Modul 2: Pravice otrok žrtev kaznivih dejanj v mednarodnem in pravu EU",
+        "subsections": []
+      },
+      {
+        "title": "Modul 3: Varstvo osebnih podatkov otrok",
+        "subsections": []
+      },
+      {
+        "title": "Modul 4: Izzivi v etiki: otroška in mladostniška psihologija",
+        "subsections": []
+      },
+      {
+        "title": "Modul 5: Celostni pristop",
+        "subsections": []
+      }
+    ]
+  },
+  "sysMessages": {
+    "wrongPage": "Napačna stran, kliknite za vrnitev na domačo stran!"
+  }
+}
